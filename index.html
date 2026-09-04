@@ -420,6 +420,17 @@
       text-align: center;
     }
 
+    footer.note a {
+      color: var(--accent-dark);
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    footer.note a:hover {
+      color: var(--accent);
+    }
+
     /* Sticky glossary access */
     .glossary-bar {
       position: sticky;
@@ -878,7 +889,11 @@
       </div>
     </section>
 
-    <footer class="note">Self-contained quiz · No external scripts or services · Works offline on GitHub Pages</footer>
+    <footer class="note">
+      Self-contained quiz · No external scripts or services · Works offline on GitHub Pages<br />
+      Source:
+      <a href="https://github.com/pleabargain/organizaton-structures-for-a-speech" target="_blank" rel="noopener noreferrer">https://github.com/pleabargain/organizaton-structures-for-a-speech</a>
+    </footer>
   </div>
 
   <script>

@@ -4,6 +4,8 @@ A self-contained practice quiz for choosing the best **organizational pattern** 
 
 Built for **GitHub Pages** — vanilla HTML/CSS/JavaScript, no build step, no external scripts or CDNs.
 
+**Repository:** [https://github.com/pleabargain/organizaton-structures-for-a-speech](https://github.com/pleabargain/organizaton-structures-for-a-speech)
+
 ## Features
 
 - **50 original scenario questions** with multiple-choice answers
@@ -32,16 +34,16 @@ Open **Why this method works** in the quiz UI for the in-page explanation and re
 
 ## Live site (GitHub Pages)
 
+**GitHub repo:** [https://github.com/pleabargain/organizaton-structures-for-a-speech](https://github.com/pleabargain/organizaton-structures-for-a-speech)
+
+**Pages URL (once enabled):** [https://pleabargain.github.io/organizaton-structures-for-a-speech/](https://pleabargain.github.io/organizaton-structures-for-a-speech/)
+
 After you push this repository to GitHub:
 
 1. Open the repo **Settings** → **Pages**
 2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
 3. Choose branch `main` (or `master`) and folder **/ (root)**
 4. Save, then wait a minute for the site to publish
-
-The quiz will be available at:
-
-`https://<your-username>.github.io/<repository-name>/`
 
 Because the entry file is `index.html` at the repo root, GitHub Pages will serve it automatically.
 
@@ -55,7 +57,7 @@ Open `index.html` in any modern browser, or serve the folder with a simple stati
 |------|---------|
 | `index.html` | Full quiz app (HTML, CSS, and JavaScript) |
 | `why-this-method-works.md` | Research rationale and citations |
-| `page1.txt` | Source notes from an earlier study set (not used by the quiz) |
+| `.gitignore` | Ignores local study notes (`page1.txt`) |
 | `README.md` | This file |
 
 ## License
